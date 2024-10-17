@@ -82,8 +82,7 @@ main:before {
     margin: 4rem auto;
     content: '';
 }
-
-#image {
-    float: center;
-    margin: 15px 15px 0 0;
+ 
+h2 {
+    color: #e6b31a;
 }

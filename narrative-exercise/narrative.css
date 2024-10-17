@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box; 
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+#introduction {
+    background-color: aqua;
+    background-image: url(images/climbingimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh; 
+    color: white;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}

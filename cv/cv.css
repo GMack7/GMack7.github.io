@@ -13,13 +13,19 @@ html,body {
     padding:0;
 }
 
+h2 {
+    text-align: center;
+    color:#e6b31a;
+}
+
 body {
     background: var(--backgroundColor);
     color: var(--defaultColor);
     font-family: "EB Garamond", serif;
-    font-size: 20px;
+    font-size: 100px;
     max-width: 700px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /*
@@ -81,9 +87,4 @@ main:before {
     height: 0.125rem;
     margin: 4rem auto;
     content: '';
-}
-
-#image {
-    float: center;
-    margin: 15px 15px 0 0;
 }
